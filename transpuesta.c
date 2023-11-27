@@ -26,9 +26,18 @@ int main(int argc, char const *argv[])
         {
             printf("%d\t", Matriz[i][j]);
         }
-        printf("\n");
+        printf("\n\n");
     }
    
+   int Matriz2[max][max];
+   for (int i = 0; i < f; i++)
+    {
+        for (int j = 0; j < c; j++)
+        {
+            printf("%d\t", Matriz2[i][j]);
+        }
+        printf("\n");
+    }
     
 
     return 0;
